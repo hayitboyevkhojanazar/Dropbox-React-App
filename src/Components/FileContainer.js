@@ -25,21 +25,31 @@ function FileContainer({ title, id }) {
     }
   }
   return (
-    <Container onClick={SelectChannel}>
-    {/* <span>{navigate(`/folder/${title}/${id}`)}</span> */}
-      <Folder />
-      <span>{title}</span>
-      <button onClick={handleDelete}>Delete</button>
-    </Container>
+    <Div>
+      <Container onClick={SelectChannel}>
+        <Folder />
+        <span>{title}</span>
+        <Button onClick={handleDelete}>Delete</Button>
+      </Container>
+    </Div>
   );
 }
 
 export default FileContainer;
 
+const Button = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  font-size: 10px;
+`;
+
+const Div = styled.div`
+`;
 const Container = styled.div`
+  display: flex;
   width: 287.5px;
   height: 48px;
-  display: flex;
   align-items: center;
   border: 1px solid rgba(0, 0, 0, 0.35);
   border-radius: 4px;

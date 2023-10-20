@@ -39,8 +39,8 @@
 
 .extra {
    color: #fff;
-   margin-left: 20px;
-   margin-top: -50px;
+   margin-left: 30px;
+   margin-top: -55px;
    margin-bottom: 100px;
    z-index: 1;
 }
@@ -60,7 +60,7 @@
    transition: all .6s ease;
 }
 .btn_signup:hover {
-   transform: scale(1.021);
+   transform: scale(1.2);
 }
 
 .btn2{
@@ -78,5 +78,5 @@
    transition: all .6s ease;
 }
 .btn_login:hover {
-   transform: scale(1.021);
+   transform: scale(1.2);
 }
