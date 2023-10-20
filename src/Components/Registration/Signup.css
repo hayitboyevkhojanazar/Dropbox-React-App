@@ -108,7 +108,7 @@
 
 .form label .input:focus + span,
 .form label .input:valid + span {
-  color: #00bfff;
+  /* color: #00bfff; */
   top: 0px;
   font-size: 0.7em;
   font-weight: 600;

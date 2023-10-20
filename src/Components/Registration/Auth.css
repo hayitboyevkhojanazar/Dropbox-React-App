@@ -17,6 +17,26 @@
 
 }
 
+.signup > .form label .input:placeholder-shown + span {
+   top: 12.5px;
+   font-size: 0.9em;
+}
+.signup > .form label .input:focus + span, .form label .input:valid + span {
+   color: #00bfff;
+   top: 0px;
+   font-size: 0.7em;
+   font-weight: 600;
+}
+.signup > .form label .input + span {
+   color: rgba(255, 255, 255, 0.5);
+   position: absolute;
+   left: 10px;
+   top: 0px;
+   font-size: 0.9em;
+   cursor: text;
+   transition: 0.3s ease;
+}
+
 .extra {
    color: #fff;
    margin-left: 20px;
